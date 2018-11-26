@@ -1,3 +1,52 @@
-h1 {
-  font-family: 'Lato', sans-serif;
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #eee9de;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.125rem;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  padding-top: 2em;
+}
+
+div {
+  display: inline-block;
+  text-align: left;
+  padding: 1em;
+  max-width: 25em;
+  vertical-align: middle;
 }
